@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Courgette&family=Lobster&family=M+PLUS+Rounded+1c:wght@800&family=Open+Sans:ital,wght@0,300;1,300&family=Pacifico&family=Poppins:wght@300;700&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #dbdbdb;
+}
+
+.main-container {
+    max-width: 550px;
+    height: 400px;
+    padding: 25px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 120px;
+}
+
+.upper-input-field-div {
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 0px 30px 0px;
+    border-bottom: 0.5px solid #dbdbdb;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input1-div, .input2,div {
+    margin-right: 2.5rem;
+}
+  
+.input-field {
+    width: 5.5rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.input-field:hover {
+    border-color: #854dff;
+}
+
+.input-div-heading {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 1%, 44%);
+    font-size: 10.5px;
+    letter-spacing: 0.08cm;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.for-error-line {
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    display: none;
+}
+
+.purple-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #854dff;
+    z-index: 5;
+    float: right;
+    margin: -30px 15%;
+    border: none;
+    border-radius: 50%;
+}
+
+.answer-div {
+    width: fit-content;
+    height: 4.8rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-div1 {
+    margin-top: 1rem;
+}
+
+.answer-num {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: #854dff;
+}
+
+.answer-word {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 390px) {
+    .main-container {
+       height: 450px;
+       padding: 20px;
+    }
+
+    .upper-input-field-div {
+        /* justify-content: space-evenly; */
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .input1-div, .input2,div {
+        margin-right: 1rem;
+    }
+
+    /* .input-field {
+        width: 6.5rem;
+        height: 3.5;
+    } */
+
+    .purple-btn {
+        margin-right: 45%;
+    }
+
+    .answer-div {
+        height: 4rem;
+    }
+
+    .answer-num {
+        font-size: 3.2rem;
+    }
+    
+    .answer-word {
+        font-size: 3.2rem;
+    }
+}
