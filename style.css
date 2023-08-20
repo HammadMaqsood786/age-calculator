@@ -12,7 +12,7 @@ body {
 
 .main-container {
     max-width: 550px;
-    height: 400px;
+    height: auto;
     padding: 25px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -59,7 +59,7 @@ input::-webkit-inner-spin-button {
 
 .input-div-heading {
     font-family: 'Poppins', sans-serif;
-    color: hsl(0, 1%, 44%);
+    color: #716f6f;
     font-size: 10.5px;
     letter-spacing: 0.08cm;
     text-transform: uppercase;
@@ -72,6 +72,7 @@ input::-webkit-inner-spin-button {
     font-size: 10px;
     font-style: italic;
     display: none;
+    color: #ff5757;
 }
 
 .purple-btn {
@@ -83,6 +84,16 @@ input::-webkit-inner-spin-button {
     margin: -30px 15%;
     border: none;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 .answer-div {
