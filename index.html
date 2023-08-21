@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Frontend Mentor | Age calculator app</title>
 </head>
 
@@ -19,43 +19,50 @@
 
       <div class="input1-div input-divs">
         <h6 class="input-div-heading">Day</h6>
-        <input class="input-field" id="day" type="number" placeholder="DD"/>
+        <input class="input-field" id="day" type="number" placeholder="DD" />
         <p class="for-error-line">Must be a valid Day</p>
       </div>
 
       <div class="input2-div input-divs">
         <h6 class="input-div-heading">Month</h6>
-        <input class="input-field" type="number" placeholder="MM" id="month" >
+        <input class="input-field" type="number" placeholder="MM" id="month">
         <p class="for-error-line">Must be a valid Month</p>
       </div>
 
       <div class="input3-div  input-divs">
         <h6 class="input-div-heading">Year</h6>
-        <input class="input-field" type="number"  placeholder="YYYY" id="year" >
+        <input class="input-field" type="number" placeholder="YYYY" id="year">
         <p class="for-error-line">Must be a valid Year</p>
       </div>
 
     </div>
-    
-    <div class="purple-btn" id="answer-btn" onclick="calculateAge()" >
-      <h3 class="btn-text" >Go</h3>
-    </div>
-    
-    <div class="answer-div answer-div1" >
-      <h4 class="answer-num" id="ans-year" ></h4>
-      <h2 class="answer-word" >years</h2>
-    </div>
-    
-    <div class="answer-div" >
-      <h4 class="answer-num" id="ans-month" ></h4>
-      <h2 class="answer-word" >months</h2>
+
+    <div class="purple-btn" id="answer-btn" onclick="calculateAge()">
+      <h3 class="btn-text">Go</h3>
     </div>
 
-    <div class="answer-div" >
-      <h4 class="answer-num" id="ans-day" ></h4>
-      <h2 class="answer-word" >days</h2>
+    <div class="answer-div answer-div1">
+      <span class="box-style"></span>
+      <span class="box-style box-style2"></span>
+      <h4 class="answer-num" id="ans-year">
+      </h4>
+      <h2 class="answer-word">years</h2>
     </div>
-    
+
+    <div class="answer-div">
+      <span class="box-style"></span>
+      <span class="box-style box-style2"></span>
+      <h4 class="answer-num" id="ans-month"></h4>
+      <h2 class="answer-word">months</h2>
+    </div>
+
+    <div class="answer-div">
+      <span class="box-style"></span>
+      <span class="box-style box-style2"></span>
+      <h4 class="answer-num" id="ans-day"></h4>
+      <h2 class="answer-word">days</h2>
+    </div>
+
   </div>
 
   <script src="app.js"></script>

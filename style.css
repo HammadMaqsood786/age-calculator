@@ -109,6 +109,17 @@ input::-webkit-inner-spin-button {
     margin-top: 1rem;
 }
 
+.box-style {
+    width: 2rem;
+    height: 1rem;
+    background-color: #854dff;
+    
+}
+
+.box-style2 {
+    margin-left: 10px;
+}
+
 .answer-num {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
